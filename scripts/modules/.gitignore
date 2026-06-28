@@ -1,0 +1,20 @@
+# Nuclei templates should not be pushed to GitHub
+rules/projectdiscovery/nuclei-templates/
+
+# Scanner output / evidence
+evidence/scanner-output/*.jsonl
+evidence/scanner-output/*.txt
+evidence/rule-match/*.json
+evidence/rule-match/*.jsonl
+evidence/baseline/*.json
+
+# Logs
+logs/*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
